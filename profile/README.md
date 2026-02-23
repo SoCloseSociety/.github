@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Free automation tools for growth hackers, marketers & developers.</strong>
+  <strong>Free automation tools for growth hackers, marketers, traders & developers.</strong>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ### What we build
 
-We create **open-source automation tools** that save hours of manual work. All our tools are free, Python-based, and built with Selenium for browser automation.
+We create **open-source automation tools** that save hours of manual work. All our tools are free, Python-based, and cover web scraping, social media automation, Telegram bots, and blockchain tracking.
 
 ### Our Tools
 
@@ -34,6 +34,10 @@ We create **open-source automation tools** that save hours of manual work. All o
 | 💬 **[WhatsappSender](https://github.com/SoCloseSociety/WhatsappSender)** | Automate bulk messaging on WhatsApp | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/WhatsappSender?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/WhatsappSender) |
 | 🏥 **[DoctolibDataScraper](https://github.com/SoCloseSociety/DoctolibDataScraper)** | Scrape doctor data from Doctolib | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/DoctolibDataScraper?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/DoctolibDataScraper) |
 | 💼 **[FreeWorkDataScraper](https://github.com/SoCloseSociety/FreeWorkDataScraper)** | Scrape freelancer profiles from Free-Work | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/FreeWorkDataScraper?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/FreeWorkDataScraper) |
+| 🐋 **[WhalegodTG](https://github.com/SoCloseSociety/WhalegodTG)** | On-chain whale tracker for Solana & Ethereum | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/WhalegodTG?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/WhalegodTG) |
+| 📊 **[PropFirmTrackerBot](https://github.com/SoCloseSociety/PropFirmTrackerBot-)** | Real-time prop firm monitoring with AI summaries | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/PropFirmTrackerBot-?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/PropFirmTrackerBot-) |
+| 🤖 **[FrFollowForFollowBot](https://github.com/SoCloseSociety/FrFollowForFollowBot)** | Gamified Telegram F4F bot for Instagram | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/FrFollowForFollowBot?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/FrFollowForFollowBot) |
+| 🚀 **[BoosterBot](https://github.com/SoCloseSociety/BoosterBot)** | Telegram follow-for-follow bot for Instagram | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/BoosterBot?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/BoosterBot) |
 
 ### Tech Stack
 
@@ -43,6 +47,9 @@ We create **open-source automation tools** that save hours of manual work. All o
   <img src="https://img.shields.io/badge/BeautifulSoup-575ECF?style=flat-square&logo=python&logoColor=white" alt="BeautifulSoup">
   <img src="https://img.shields.io/badge/Rich_CLI-575ECF?style=flat-square&logo=gnometerminal&logoColor=white" alt="Rich CLI">
   <img src="https://img.shields.io/badge/Streamlit-575ECF?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Telegram_Bot-575ECF?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Bot">
+  <img src="https://img.shields.io/badge/Docker-575ECF?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Solana-575ECF?style=flat-square&logo=solana&logoColor=white" alt="Solana">
 </p>
 
 ### Contributing
