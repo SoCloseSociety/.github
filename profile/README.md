@@ -17,12 +17,43 @@
 
 ### What we build
 
-We create **open-source automation tools** that save hours of manual work. All our tools are free, Python-based, and cover web scraping, social media automation, Telegram bots, and blockchain tracking.
+We create **open-source automation tools** that save hours of manual work — from AI-powered agents to web scrapers, social media bots, and blockchain trackers. All free, all Python-based.
 
-### Our Tools
+---
+
+### Featured — MiloAgent
+
+<table>
+<tr>
+<td width="100%" align="center">
+
+**🧠 [MiloAgent](https://github.com/SoCloseSociety/MiloAgent)** — **Autonomous AI agent specialized in Reddit growth**
+
+[![Stars](https://img.shields.io/github/stars/SoCloseSociety/MiloAgent?style=flat-square&color=blueviolet)](https://github.com/SoCloseSociety/MiloAgent)
+[![Reddit](https://img.shields.io/badge/reddit-expert-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://github.com/SoCloseSociety/MiloAgent)
+[![Twitter](https://img.shields.io/badge/twitter-learning-1DA1F2?style=flat-square&logo=x&logoColor=white)](https://github.com/SoCloseSociety/MiloAgent)
+[![Telegram](https://img.shields.io/badge/telegram-learning-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://github.com/SoCloseSociety/MiloAgent)
+[![Zero Cost](https://img.shields.io/badge/cost-$0%2Fmo-brightgreen?style=flat-square)](https://github.com/SoCloseSociety/MiloAgent)
+
+Milo is an AI agent that lives on Reddit. He scans conversations, understands context, generates human-like responses via LLM, and **learns from every interaction** to improve his strategy. He runs A/B tests on his own tone, evolves his prompts, and adapts to each subreddit's culture — autonomously.
+
+**Self-learning** · **10+ expert personas** · **Multi-account** · **Anti-ban safety** · **3 dashboards** · **Docker ready**
+
+Currently expanding to **Twitter/X** and **Telegram** — same brain, new platforms.
+
+**→ [View the repo](https://github.com/SoCloseSociety/MiloAgent)**
+
+</td>
+</tr>
+</table>
+
+---
+
+### All Tools
 
 | Tool | Description | |
 |------|-------------|---|
+| 🧠 **[MiloAgent](https://github.com/SoCloseSociety/MiloAgent)** | Autonomous AI growth agent — Reddit expert, self-learning, expanding to X & Telegram | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/MiloAgent?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/MiloAgent) |
 | 📌 **[PinterestBulkPostBot](https://github.com/SoCloseSociety/PinterestBulkPostBot)** | Automate bulk posting on Pinterest | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/PinterestBulkPostBot?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/PinterestBulkPostBot) |
 | 📍 **[GoogleMapScraper](https://github.com/SoCloseSociety/GoogleMapScraper)** | Extract business data from Google Maps | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/GoogleMapScraper?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/GoogleMapScraper) |
 | 🔗 **[LinkedinDataScraper](https://github.com/SoCloseSociety/LinkedinDataScraper)** | Scrape LinkedIn profile data at scale | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/LinkedinDataScraper?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/LinkedinDataScraper) |
