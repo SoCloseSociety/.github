@@ -49,11 +49,37 @@ Currently expanding to **Twitter/X** and **Telegram** — same brain, new platfo
 
 ---
 
+### Featured — RugScore
+
+<table>
+<tr>
+<td width="100%" align="center">
+
+**🛡️ [RugscoreBotTG](https://github.com/SoCloseSociety/RugscoreBotTG)** — **Solana anti-rug scanner — 8-criteria deep analysis**
+
+[![Stars](https://img.shields.io/github/stars/SoCloseSociety/RugscoreBotTG?style=flat-square&color=blueviolet)](https://github.com/SoCloseSociety/RugscoreBotTG)
+[![Solana](https://img.shields.io/badge/Solana-anti--rug-9945FF?style=flat-square&logo=solana&logoColor=white)](https://github.com/SoCloseSociety/RugscoreBotTG)
+[![Telegram](https://img.shields.io/badge/Telegram-bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://github.com/SoCloseSociety/RugscoreBotTG)
+[![Zero Cost](https://img.shields.io/badge/cost-$0%2Fmo-brightgreen?style=flat-square)](https://github.com/SoCloseSociety/RugscoreBotTG)
+
+Telegram bot that scans any Solana token and returns an instant safety score (0-100) based on 8 weighted criteria: contract security, liquidity health, holder distribution, dev wallet history, volume authenticity, social legitimacy, metadata quality, and smart money signals. Real-time on-chain data, zero cost.
+
+**8 scoring criteria** · **Auto-detect** · **Inline mode** · **Watchlist & alerts** · **Smart money tracking** · **Docker ready**
+
+**→ [View the repo](https://github.com/SoCloseSociety/RugscoreBotTG)**
+
+</td>
+</tr>
+</table>
+
+---
+
 ### All Tools
 
 | Tool | Description | |
 |------|-------------|---|
 | 🧠 **[MiloAgent](https://github.com/SoCloseSociety/MiloAgent)** | Autonomous AI growth agent — Reddit expert, self-learning, expanding to X & Telegram | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/MiloAgent?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/MiloAgent) |
+| 🛡️ **[RugscoreBotTG](https://github.com/SoCloseSociety/RugscoreBotTG)** | Solana anti-rug scanner — 8-criteria scoring, Telegram bot, real-time on-chain data | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/RugscoreBotTG?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/RugscoreBotTG) |
 | 📌 **[PinterestBulkPostBot](https://github.com/SoCloseSociety/PinterestBulkPostBot)** | Automate bulk posting on Pinterest | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/PinterestBulkPostBot?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/PinterestBulkPostBot) |
 | 📍 **[GoogleMapScraper](https://github.com/SoCloseSociety/GoogleMapScraper)** | Extract business data from Google Maps | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/GoogleMapScraper?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/GoogleMapScraper) |
 | 🔗 **[LinkedinDataScraper](https://github.com/SoCloseSociety/LinkedinDataScraper)** | Scrape LinkedIn profile data at scale | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/LinkedinDataScraper?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/LinkedinDataScraper) |
