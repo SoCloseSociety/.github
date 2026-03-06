@@ -95,6 +95,7 @@ Telegram bot that scans any Solana token and returns an instant safety score (0-
 | 📊 **[PropFirmTrackerBot](https://github.com/SoCloseSociety/PropFirmTrackerBot-)** | Real-time prop firm monitoring with AI summaries | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/PropFirmTrackerBot-?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/PropFirmTrackerBot-) |
 | 🤖 **[FrFollowForFollowBot](https://github.com/SoCloseSociety/FrFollowForFollowBot)** | Gamified Telegram F4F bot for Instagram | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/FrFollowForFollowBot?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/FrFollowForFollowBot) |
 | 🚀 **[BoosterBot](https://github.com/SoCloseSociety/BoosterBot)** | Telegram follow-for-follow bot for Instagram | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/BoosterBot?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/BoosterBot) |
+| 🖥️ **[macmon](https://github.com/SoCloseSociety/macmon)** | Mac monitor + system cleaner CLI — CCleaner Pro level, 28+ commands, live TUI | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/macmon?style=flat-square&color=575ECF)](https://github.com/SoCloseSociety/macmon) |
 
 ### Tech Stack
 
