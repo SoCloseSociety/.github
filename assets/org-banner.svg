@@ -6,20 +6,16 @@
       <stop offset="100%" style="stop-color:#0A0A0A"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF0066"/>
-      <stop offset="50%" style="stop-color:#FF3388"/>
-      <stop offset="100%" style="stop-color:#FF0066"/>
-    </linearGradient>
-    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FF0066"/>
-      <stop offset="100%" style="stop-color:#FF6699"/>
+      <stop offset="0%" style="stop-color:#ec4899"/>
+      <stop offset="50%" style="stop-color:#f472b6"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
     </linearGradient>
     <linearGradient id="orbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FF0066;stop-opacity:0.08"/>
-      <stop offset="100%" style="stop-color:#FF3388;stop-opacity:0"/>
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:0.07"/>
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:0"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -45,77 +41,73 @@
   <circle cx="80" cy="60" r="160" fill="url(#orbGrad)"/>
   <circle cx="820" cy="190" r="180" fill="url(#orbGrad)"/>
 
-  <!-- Animated pulse ring -->
-  <circle cx="450" cy="125" r="90" fill="none" stroke="#FF0066" stroke-width="0.5" opacity="0.08">
+  <!-- Animated pulse rings -->
+  <circle cx="450" cy="125" r="90" fill="none" stroke="#ec4899" stroke-width="0.5" opacity="0.06">
     <animate attributeName="r" values="90;130;90" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.06;0.02;0.06" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="450" cy="125" r="60" fill="none" stroke="#FF0066" stroke-width="0.5" opacity="0.06">
+  <circle cx="450" cy="125" r="60" fill="none" stroke="#ec4899" stroke-width="0.5" opacity="0.04">
     <animate attributeName="r" values="60;100;60" dur="6s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0.06;0.01;0.06" dur="6s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0.04;0.01;0.04" dur="6s" repeatCount="indefinite" begin="1s"/>
   </circle>
 
   <!-- Top accent line -->
   <rect x="0" y="0" width="900" height="2" rx="1" fill="url(#accent)" opacity="0.9"/>
 
-  <!-- Logo mark -->
-  <g transform="translate(370, 30)" filter="url(#glow)">
-    <path d="M30 0 L56 15 L56 45 L30 60 L4 45 L4 15 Z" fill="none" stroke="url(#logoGrad)" stroke-width="1.5" opacity="0.4"/>
-    <path d="M22 18 C22 18 36 14 40 22 C44 30 24 30 24 30 C24 30 16 30 20 38 C24 46 38 42 38 42" fill="none" stroke="url(#logoGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
-    <circle cx="30" cy="30" r="2" fill="#FF6699" opacity="0.6">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
-    </circle>
+  <!-- SoClose Logo: the "&" symbol (exact reproduction from favicon.png) -->
+  <g transform="translate(415, 22) scale(0.038)" filter="url(#glow)">
+    <path d="M960 320 C960 160 860 60 700 60 C580 60 500 130 500 220 C500 320 580 370 700 430 L780 470 C680 540 580 620 580 760 C580 820 540 920 540 920 L540 960 C540 1040 580 1120 660 1180 C580 1240 500 1340 500 1480 C500 1660 620 1780 800 1780 C920 1780 1020 1720 1060 1640 L1060 1640 L1100 1700 C1100 1700 1080 1720 1080 1760 C1080 1800 1120 1820 1160 1820 C1200 1820 1240 1800 1260 1760 C1280 1720 1280 1680 1260 1640 L1200 1540 C1160 1480 1120 1420 1060 1380 L960 1300 C1060 1200 1100 1100 1100 980 C1100 860 1040 760 940 700 L860 660 C780 620 740 580 740 500 C740 420 800 380 880 380 C940 380 980 400 1000 440 C1020 460 1040 500 1040 540 L1040 560 C1040 600 1060 620 1100 620 C1140 620 1160 600 1160 560 L1160 520 C1160 360 1080 280 960 280 Z M900 1180 L800 1240 C720 1200 680 1120 680 1020 C680 900 740 800 840 720 L920 760 C980 800 1020 860 1020 960 C1020 1060 980 1140 900 1180 Z" fill="white" opacity="0.95"/>
   </g>
 
   <!-- Organization name -->
-  <text x="450" y="122" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.5">
+  <text x="450" y="120" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.5">
     <tspan fill="white">SoClose</tspan>
-    <tspan fill="#FF6699"> Society</tspan>
+    <tspan fill="#f472b6"> Society</tspan>
   </text>
 
   <!-- Tagline -->
-  <text x="450" y="150" text-anchor="middle" fill="#888888" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" letter-spacing="0.5">Digital Innovation Through Automation &amp; AI</text>
+  <text x="450" y="148" text-anchor="middle" fill="#888888" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" letter-spacing="0.5">Digital Innovation Through Automation &amp; AI</text>
 
   <!-- Feature pills -->
   <g font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">
-    <rect x="152" y="170" width="100" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
-    <rect x="152" y="170" width="100" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
-    <text x="202" y="187" text-anchor="middle" fill="#FF6699">Open Source</text>
+    <rect x="152" y="168" width="100" height="26" rx="13" fill="#ec4899" opacity="0.08"/>
+    <rect x="152" y="168" width="100" height="26" rx="13" fill="none" stroke="#ec4899" stroke-width="0.8" opacity="0.25"/>
+    <text x="202" y="185" text-anchor="middle" fill="#f472b6">Open Source</text>
 
-    <rect x="264" y="170" width="80" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
-    <rect x="264" y="170" width="80" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
-    <text x="304" y="187" text-anchor="middle" fill="#FF6699">Python</text>
+    <rect x="264" y="168" width="80" height="26" rx="13" fill="#ec4899" opacity="0.08"/>
+    <rect x="264" y="168" width="80" height="26" rx="13" fill="none" stroke="#ec4899" stroke-width="0.8" opacity="0.25"/>
+    <text x="304" y="185" text-anchor="middle" fill="#f472b6">Python</text>
 
-    <rect x="356" y="170" width="90" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
-    <rect x="356" y="170" width="90" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
-    <text x="401" y="187" text-anchor="middle" fill="#FF6699">AI Agents</text>
+    <rect x="356" y="168" width="90" height="26" rx="13" fill="#ec4899" opacity="0.08"/>
+    <rect x="356" y="168" width="90" height="26" rx="13" fill="none" stroke="#ec4899" stroke-width="0.8" opacity="0.25"/>
+    <text x="401" y="185" text-anchor="middle" fill="#f472b6">AI Agents</text>
 
-    <rect x="458" y="170" width="100" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
-    <rect x="458" y="170" width="100" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
-    <text x="508" y="187" text-anchor="middle" fill="#FF6699">Automation</text>
+    <rect x="458" y="168" width="100" height="26" rx="13" fill="#ec4899" opacity="0.08"/>
+    <rect x="458" y="168" width="100" height="26" rx="13" fill="none" stroke="#ec4899" stroke-width="0.8" opacity="0.25"/>
+    <text x="508" y="185" text-anchor="middle" fill="#f472b6">Automation</text>
 
-    <rect x="570" y="170" width="100" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
-    <rect x="570" y="170" width="100" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
-    <text x="620" y="187" text-anchor="middle" fill="#FF6699">Blockchain</text>
+    <rect x="570" y="168" width="100" height="26" rx="13" fill="#ec4899" opacity="0.08"/>
+    <rect x="570" y="168" width="100" height="26" rx="13" fill="none" stroke="#ec4899" stroke-width="0.8" opacity="0.25"/>
+    <text x="620" y="185" text-anchor="middle" fill="#f472b6">Blockchain</text>
 
-    <rect x="682" y="170" width="80" height="26" rx="13" fill="#FF0066" opacity="0.12"/>
-    <rect x="682" y="170" width="80" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.35"/>
-    <text x="722" y="187" text-anchor="middle" fill="#FF3388" font-weight="600">17+ Tools</text>
+    <rect x="682" y="168" width="80" height="26" rx="13" fill="#ec4899" opacity="0.12"/>
+    <rect x="682" y="168" width="80" height="26" rx="13" fill="none" stroke="#ec4899" stroke-width="0.8" opacity="0.35"/>
+    <text x="722" y="185" text-anchor="middle" fill="#ec4899" font-weight="600">17+ Tools</text>
   </g>
 
   <!-- Left decorative line -->
-  <line x1="60" y1="105" x2="160" y2="105" stroke="#FF0066" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="60" cy="105" r="2" fill="#FF0066" opacity="0.3"/>
+  <line x1="60" y1="105" x2="160" y2="105" stroke="#ec4899" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="60" cy="105" r="2" fill="#ec4899" opacity="0.3"/>
 
   <!-- Right decorative line -->
-  <line x1="740" y1="105" x2="840" y2="105" stroke="#FF0066" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="840" cy="105" r="2" fill="#FF0066" opacity="0.3"/>
+  <line x1="740" y1="105" x2="840" y2="105" stroke="#ec4899" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="840" cy="105" r="2" fill="#ec4899" opacity="0.3"/>
 
   <!-- Bottom line -->
-  <line x1="200" y1="215" x2="700" y2="215" stroke="#FF0066" stroke-width="0.3" opacity="0.1"/>
+  <line x1="200" y1="212" x2="700" y2="212" stroke="#ec4899" stroke-width="0.3" opacity="0.1"/>
 
   <!-- Subtitle bottom -->
-  <text x="450" y="235" text-anchor="middle" fill="#555555" font-family="system-ui, -apple-system, sans-serif" font-size="10" letter-spacing="3" font-weight="400">FREE TOOLS FOR THE COMMUNITY</text>
+  <text x="450" y="232" text-anchor="middle" fill="#555555" font-family="system-ui, -apple-system, sans-serif" font-size="10" letter-spacing="3" font-weight="400">FREE TOOLS FOR THE COMMUNITY</text>
 
   <!-- Bottom accent line -->
   <rect x="0" y="248" width="900" height="2" rx="1" fill="url(#accent)" opacity="0.9"/>
