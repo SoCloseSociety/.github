@@ -1,32 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#08081a"/>
-      <stop offset="40%" style="stop-color:#10102e"/>
-      <stop offset="100%" style="stop-color:#08081a"/>
+      <stop offset="0%" style="stop-color:#0A0A0A"/>
+      <stop offset="40%" style="stop-color:#111111"/>
+      <stop offset="100%" style="stop-color:#0A0A0A"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4F46E5"/>
-      <stop offset="50%" style="stop-color:#7C3AED"/>
-      <stop offset="100%" style="stop-color:#4F46E5"/>
+      <stop offset="0%" style="stop-color:#FF0066"/>
+      <stop offset="50%" style="stop-color:#FF3388"/>
+      <stop offset="100%" style="stop-color:#FF0066"/>
     </linearGradient>
     <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#6366F1"/>
-      <stop offset="100%" style="stop-color:#A78BFA"/>
+      <stop offset="0%" style="stop-color:#FF0066"/>
+      <stop offset="100%" style="stop-color:#FF6699"/>
     </linearGradient>
     <linearGradient id="orbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.12"/>
-      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:0"/>
+      <stop offset="0%" style="stop-color:#FF0066;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#FF3388;stop-opacity:0"/>
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="softglow">
-      <feGaussianBlur stdDeviation="12" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -41,7 +34,7 @@
   <rect width="900" height="250" rx="16" fill="url(#bg)"/>
 
   <!-- Subtle dot grid -->
-  <g clip-path="url(#roundRect)" opacity="0.025">
+  <g clip-path="url(#roundRect)" opacity="0.03">
     <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
       <circle cx="15" cy="15" r="1" fill="white"/>
     </pattern>
@@ -52,27 +45,24 @@
   <circle cx="80" cy="60" r="160" fill="url(#orbGrad)"/>
   <circle cx="820" cy="190" r="180" fill="url(#orbGrad)"/>
 
-  <!-- Animated pulse ring (center) -->
-  <circle cx="450" cy="125" r="90" fill="none" stroke="#6366F1" stroke-width="0.5" opacity="0.08">
+  <!-- Animated pulse ring -->
+  <circle cx="450" cy="125" r="90" fill="none" stroke="#FF0066" stroke-width="0.5" opacity="0.08">
     <animate attributeName="r" values="90;130;90" dur="6s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.08;0.02;0.08" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="450" cy="125" r="60" fill="none" stroke="#6366F1" stroke-width="0.5" opacity="0.06">
+  <circle cx="450" cy="125" r="60" fill="none" stroke="#FF0066" stroke-width="0.5" opacity="0.06">
     <animate attributeName="r" values="60;100;60" dur="6s" repeatCount="indefinite" begin="1s"/>
     <animate attributeName="opacity" values="0.06;0.01;0.06" dur="6s" repeatCount="indefinite" begin="1s"/>
   </circle>
 
   <!-- Top accent line -->
-  <rect x="0" y="0" width="900" height="2" rx="1" fill="url(#accent)" opacity="0.8"/>
+  <rect x="0" y="0" width="900" height="2" rx="1" fill="url(#accent)" opacity="0.9"/>
 
-  <!-- Logo mark — stylized SC monogram -->
+  <!-- Logo mark -->
   <g transform="translate(370, 30)" filter="url(#glow)">
-    <!-- Outer hexagonal frame -->
     <path d="M30 0 L56 15 L56 45 L30 60 L4 45 L4 15 Z" fill="none" stroke="url(#logoGrad)" stroke-width="1.5" opacity="0.4"/>
-    <!-- Inner S shape -->
     <path d="M22 18 C22 18 36 14 40 22 C44 30 24 30 24 30 C24 30 16 30 20 38 C24 46 38 42 38 42" fill="none" stroke="url(#logoGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
-    <!-- Pulse dot -->
-    <circle cx="30" cy="30" r="2" fill="#A78BFA" opacity="0.6">
+    <circle cx="30" cy="30" r="2" fill="#FF6699" opacity="0.6">
       <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
     </circle>
   </g>
@@ -80,59 +70,53 @@
   <!-- Organization name -->
   <text x="450" y="122" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.5">
     <tspan fill="white">SoClose</tspan>
-    <tspan fill="#A78BFA"> Society</tspan>
+    <tspan fill="#FF6699"> Society</tspan>
   </text>
 
   <!-- Tagline -->
-  <text x="450" y="150" text-anchor="middle" fill="#8888aa" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" letter-spacing="0.5">Digital Innovation Through Automation &amp; AI</text>
+  <text x="450" y="150" text-anchor="middle" fill="#888888" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" letter-spacing="0.5">Digital Innovation Through Automation &amp; AI</text>
 
   <!-- Feature pills -->
   <g font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">
-    <!-- Open Source -->
-    <rect x="152" y="170" width="100" height="26" rx="13" fill="#6366F1" opacity="0.1"/>
-    <rect x="152" y="170" width="100" height="26" rx="13" fill="none" stroke="#6366F1" stroke-width="0.8" opacity="0.25"/>
-    <text x="202" y="187" text-anchor="middle" fill="#818CF8">Open Source</text>
+    <rect x="152" y="170" width="100" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
+    <rect x="152" y="170" width="100" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
+    <text x="202" y="187" text-anchor="middle" fill="#FF6699">Open Source</text>
 
-    <!-- Python -->
-    <rect x="264" y="170" width="80" height="26" rx="13" fill="#6366F1" opacity="0.1"/>
-    <rect x="264" y="170" width="80" height="26" rx="13" fill="none" stroke="#6366F1" stroke-width="0.8" opacity="0.25"/>
-    <text x="304" y="187" text-anchor="middle" fill="#818CF8">Python</text>
+    <rect x="264" y="170" width="80" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
+    <rect x="264" y="170" width="80" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
+    <text x="304" y="187" text-anchor="middle" fill="#FF6699">Python</text>
 
-    <!-- AI Agents -->
-    <rect x="356" y="170" width="90" height="26" rx="13" fill="#6366F1" opacity="0.1"/>
-    <rect x="356" y="170" width="90" height="26" rx="13" fill="none" stroke="#6366F1" stroke-width="0.8" opacity="0.25"/>
-    <text x="401" y="187" text-anchor="middle" fill="#818CF8">AI Agents</text>
+    <rect x="356" y="170" width="90" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
+    <rect x="356" y="170" width="90" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
+    <text x="401" y="187" text-anchor="middle" fill="#FF6699">AI Agents</text>
 
-    <!-- Automation -->
-    <rect x="458" y="170" width="100" height="26" rx="13" fill="#6366F1" opacity="0.1"/>
-    <rect x="458" y="170" width="100" height="26" rx="13" fill="none" stroke="#6366F1" stroke-width="0.8" opacity="0.25"/>
-    <text x="508" y="187" text-anchor="middle" fill="#818CF8">Automation</text>
+    <rect x="458" y="170" width="100" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
+    <rect x="458" y="170" width="100" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
+    <text x="508" y="187" text-anchor="middle" fill="#FF6699">Automation</text>
 
-    <!-- Blockchain -->
-    <rect x="570" y="170" width="100" height="26" rx="13" fill="#6366F1" opacity="0.1"/>
-    <rect x="570" y="170" width="100" height="26" rx="13" fill="none" stroke="#6366F1" stroke-width="0.8" opacity="0.25"/>
-    <text x="620" y="187" text-anchor="middle" fill="#818CF8">Blockchain</text>
+    <rect x="570" y="170" width="100" height="26" rx="13" fill="#FF0066" opacity="0.08"/>
+    <rect x="570" y="170" width="100" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.25"/>
+    <text x="620" y="187" text-anchor="middle" fill="#FF6699">Blockchain</text>
 
-    <!-- 17+ Tools -->
-    <rect x="682" y="170" width="80" height="26" rx="13" fill="#7C3AED" opacity="0.15"/>
-    <rect x="682" y="170" width="80" height="26" rx="13" fill="none" stroke="#7C3AED" stroke-width="0.8" opacity="0.35"/>
-    <text x="722" y="187" text-anchor="middle" fill="#A78BFA" font-weight="600">17+ Tools</text>
+    <rect x="682" y="170" width="80" height="26" rx="13" fill="#FF0066" opacity="0.12"/>
+    <rect x="682" y="170" width="80" height="26" rx="13" fill="none" stroke="#FF0066" stroke-width="0.8" opacity="0.35"/>
+    <text x="722" y="187" text-anchor="middle" fill="#FF3388" font-weight="600">17+ Tools</text>
   </g>
 
   <!-- Left decorative line -->
-  <line x1="60" y1="105" x2="160" y2="105" stroke="#6366F1" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="60" cy="105" r="2" fill="#6366F1" opacity="0.3"/>
+  <line x1="60" y1="105" x2="160" y2="105" stroke="#FF0066" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="60" cy="105" r="2" fill="#FF0066" opacity="0.3"/>
 
   <!-- Right decorative line -->
-  <line x1="740" y1="105" x2="840" y2="105" stroke="#6366F1" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="840" cy="105" r="2" fill="#6366F1" opacity="0.3"/>
+  <line x1="740" y1="105" x2="840" y2="105" stroke="#FF0066" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="840" cy="105" r="2" fill="#FF0066" opacity="0.3"/>
 
   <!-- Bottom line -->
-  <line x1="200" y1="215" x2="700" y2="215" stroke="#6366F1" stroke-width="0.3" opacity="0.1"/>
+  <line x1="200" y1="215" x2="700" y2="215" stroke="#FF0066" stroke-width="0.3" opacity="0.1"/>
 
   <!-- Subtitle bottom -->
-  <text x="450" y="235" text-anchor="middle" fill="#555577" font-family="system-ui, -apple-system, sans-serif" font-size="10" letter-spacing="3" font-weight="400">FREE TOOLS FOR THE COMMUNITY</text>
+  <text x="450" y="235" text-anchor="middle" fill="#555555" font-family="system-ui, -apple-system, sans-serif" font-size="10" letter-spacing="3" font-weight="400">FREE TOOLS FOR THE COMMUNITY</text>
 
   <!-- Bottom accent line -->
-  <rect x="0" y="248" width="900" height="2" rx="1" fill="url(#accent)" opacity="0.8"/>
+  <rect x="0" y="248" width="900" height="2" rx="1" fill="url(#accent)" opacity="0.9"/>
 </svg>
