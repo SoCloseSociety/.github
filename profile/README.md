@@ -46,6 +46,30 @@ Milo scans conversations, understands context, generates human-like responses vi
 
 ---
 
+### Featured -- TradeBobby
+
+<table>
+<tr>
+<td width="100%" align="center">
+
+**[TradeBobbyTerminal](https://github.com/SoCloseSociety/TradeBobbyTerminal)** -- **Bloomberg-style market intelligence terminal for ICT/SMC macro trading**
+
+[![Stars](https://img.shields.io/github/stars/SoCloseSociety/TradeBobbyTerminal?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal)
+[![Pine v5](https://img.shields.io/badge/pine--script-v5-ec4899?style=flat-square&logo=tradingview&logoColor=white&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal)
+[![Zero Cost](https://img.shields.io/badge/cost-$0%2Fmo-ec4899?style=flat-square&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal)
+
+A research desk in a box for discretionary macro traders. Self-hosted web terminal that synthesizes **15+ free data sources** (Yahoo, CFTC COT, CoinGecko, Binance funding, on-chain BTC, RSS news, NASDAQ earnings, Reddit) into a **41-panel Bloomberg-style dashboard**. Auto-generates regime briefs, composite risk index (0-100), and synthesis-scored trade ideas with multi-factor confluence.
+
+**41 panels** · **31 API endpoints** · **14 background daemons** · **1931-line Pine V6 indicator** (40 alerts, 13 V6 modules) · **⌘K command palette** · **Multi-channel alerts** (macOS / Discord / Telegram) · **4 trading profiles** (scalp/swing/aggressive/conservative)
+
+**[View the repo](https://github.com/SoCloseSociety/TradeBobbyTerminal)**
+
+</td>
+</tr>
+</table>
+
+---
+
 ### Featured -- RugScore
 
 <table>
@@ -74,6 +98,7 @@ Telegram bot that scans any Solana token and returns an instant safety score (0-
 
 | Tool | Description | |
 |------|-------------|---|
+| **[TradeBobbyTerminal](https://github.com/SoCloseSociety/TradeBobbyTerminal)** | Bloomberg-style ICT/SMC trading terminal -- 41 panels, 14 daemons, 1931-line Pine V6 indicator | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/TradeBobbyTerminal?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal) |
 | **[MiloAgent](https://github.com/SoCloseSociety/MiloAgent)** | Autonomous AI growth agent -- Reddit expert, self-learning, expanding to X & Telegram | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/MiloAgent?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/MiloAgent) |
 | **[RugscoreBotTG](https://github.com/SoCloseSociety/RugscoreBotTG)** | Solana anti-rug scanner -- 8-criteria scoring, Telegram bot, real-time on-chain data | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/RugscoreBotTG?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/RugscoreBotTG) |
 | **[WhalegodTG](https://github.com/SoCloseSociety/WhalegodTG)** | On-chain whale tracker for Solana & Ethereum, 14 categories, 50+ labeled wallets | [![Stars](https://img.shields.io/github/stars/SoCloseSociety/WhalegodTG?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/WhalegodTG) |
