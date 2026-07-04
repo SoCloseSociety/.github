@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 56" width="250" height="56" role="img" aria-label="Contribute to SoClose Society open-source projects">
+  <defs>
+    <linearGradient id="sheenC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="btnClipC">
+      <rect x="3" y="3" width="244" height="50" rx="25"/>
+    </clipPath>
+  </defs>
+
+  <!-- Pulsing halo -->
+  <rect x="3" y="3" width="244" height="50" rx="25" fill="none" stroke="#ec4899" stroke-width="2" opacity="0.35">
+    <animate attributeName="opacity" values="0.35;0.08;0.35" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Button body -->
+  <rect x="3" y="3" width="244" height="50" rx="25" fill="#0D0D0D"/>
+  <rect x="3" y="3" width="244" height="50" rx="25" fill="#ec4899" opacity="0.08"/>
+  <rect x="3" y="3" width="244" height="50" rx="25" fill="none" stroke="#ec4899" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- Moving sheen -->
+  <g clip-path="url(#btnClipC)">
+    <rect x="-90" y="3" width="90" height="50" fill="url(#sheenC)" transform="skewX(-15)">
+      <animate attributeName="x" values="-90;280" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Git fork icon -->
+  <g transform="translate(42,28)" fill="none" stroke="#f472b6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="-6" cy="-7" r="3"/>
+    <circle cx="6" cy="-7" r="3"/>
+    <circle cx="0" cy="8" r="3"/>
+    <path d="M-6,-4 C-6,2 6,2 6,-4"/>
+    <line x1="0" y1="1" x2="0" y2="5"/>
+  </g>
+
+  <text x="142" y="34" text-anchor="middle" fill="#f472b6" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="0.3">Contribute</text>
+</svg>

@@ -1,22 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" role="img" aria-label="SoClose Society — Digital Innovation Through Automation and AI. Open Source, Python, AI Agents, Automation, Blockchain — 25+ free tools for the community, star what you use.">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0A0A0A"/>
-      <stop offset="40%" style="stop-color:#111111"/>
-      <stop offset="100%" style="stop-color:#0A0A0A"/>
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="40%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ec4899"/>
-      <stop offset="50%" style="stop-color:#f472b6"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="orbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:0.07"/>
-      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:0"/>
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
     </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+    </filter>
     <clipPath id="roundRect">
       <rect width="900" height="250" rx="16"/>
     </clipPath>
+    <path id="sparkle" d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z"/>
+    <path id="star5" d="M0,-10 L2.245,-3.09 L9.511,-3.09 L3.633,1.18 L5.878,8.09 L0,3.82 L-5.878,8.09 L-3.633,1.18 L-9.511,-3.09 L-2.245,-3.09 Z"/>
   </defs>
 
   <!-- Background -->
@@ -34,6 +44,28 @@
   <circle cx="80" cy="60" r="160" fill="url(#orbGrad)"/>
   <circle cx="820" cy="190" r="180" fill="url(#orbGrad)"/>
 
+  <!-- Twinkling stars -->
+  <g fill="#f472b6" clip-path="url(#roundRect)">
+    <use href="#sparkle" transform="translate(120,48)" opacity="0.15">
+      <animate attributeName="opacity" values="0.15;0.7;0.15" dur="3.2s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sparkle" transform="translate(782,52) scale(0.8)" opacity="0.2">
+      <animate attributeName="opacity" values="0.2;0.75;0.2" dur="4.1s" begin="0.8s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sparkle" transform="translate(62,178) scale(0.7)" opacity="0.12">
+      <animate attributeName="opacity" values="0.12;0.6;0.12" dur="3.7s" begin="1.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sparkle" transform="translate(846,120) scale(0.6)" opacity="0.18">
+      <animate attributeName="opacity" values="0.18;0.65;0.18" dur="2.9s" begin="0.4s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sparkle" transform="translate(240,36) scale(0.6)" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.55;0.1" dur="4.6s" begin="2.1s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sparkle" transform="translate(660,34) scale(0.7)" opacity="0.14">
+      <animate attributeName="opacity" values="0.14;0.6;0.14" dur="3.4s" begin="1.1s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
   <!-- Animated pulse rings -->
   <circle cx="450" cy="125" r="90" fill="none" stroke="#ec4899" stroke-width="0.5" opacity="0.06">
     <animate attributeName="r" values="90;130;90" dur="6s" repeatCount="indefinite"/>
@@ -44,8 +76,16 @@
     <animate attributeName="opacity" values="0.04;0.01;0.04" dur="6s" repeatCount="indefinite" begin="1s"/>
   </circle>
 
-  <!-- Top accent line -->
+  <!-- Top accent line + light sweep -->
   <rect x="0" y="0" width="900" height="2" rx="1" fill="url(#accent)" opacity="0.9"/>
+  <g clip-path="url(#roundRect)">
+    <rect x="-180" y="0" width="180" height="2" fill="url(#sweep)" opacity="0.8">
+      <animate attributeName="x" values="-180;900" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Title glow pulse -->
+  <text x="450" y="112" text-anchor="middle" fill="#ec4899" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.5" filter="url(#glow)" opacity="0.2">SoClose Society<animate attributeName="opacity" values="0.2;0.4;0.2" dur="5s" repeatCount="indefinite"/></text>
 
   <!-- Organization name -->
   <text x="450" y="112" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.5">
@@ -80,7 +120,7 @@
 
     <rect x="682" y="168" width="80" height="26" rx="13" fill="#ec4899" opacity="0.12"/>
     <rect x="682" y="168" width="80" height="26" rx="13" fill="none" stroke="#ec4899" stroke-width="0.8" opacity="0.35"/>
-    <text x="722" y="185" text-anchor="middle" fill="#ec4899" font-weight="600">17+ Tools</text>
+    <text x="722" y="185" text-anchor="middle" fill="#ec4899" font-weight="600">25+ Tools</text>
   </g>
 
   <!-- Left decorative line -->
@@ -94,9 +134,20 @@
   <!-- Bottom line -->
   <line x1="200" y1="212" x2="700" y2="212" stroke="#ec4899" stroke-width="0.3" opacity="0.1"/>
 
-  <!-- Subtitle bottom -->
-  <text x="450" y="232" text-anchor="middle" fill="#555555" font-family="system-ui, -apple-system, sans-serif" font-size="10" letter-spacing="3" font-weight="400">FREE TOOLS FOR THE COMMUNITY</text>
+  <!-- Subtitle bottom flanked by pulsing stars -->
+  <use href="#star5" transform="translate(218,228) scale(0.55)" fill="#ec4899" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.4s" repeatCount="indefinite"/>
+  </use>
+  <text x="450" y="232" text-anchor="middle" fill="#555555" font-family="system-ui, -apple-system, sans-serif" font-size="10" letter-spacing="3" font-weight="400">FREE TOOLS FOR THE COMMUNITY — STAR WHAT YOU USE</text>
+  <use href="#star5" transform="translate(682,228) scale(0.55)" fill="#ec4899" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+  </use>
 
-  <!-- Bottom accent line -->
+  <!-- Bottom accent line + light sweep -->
   <rect x="0" y="248" width="900" height="2" rx="1" fill="url(#accent)" opacity="0.9"/>
+  <g clip-path="url(#roundRect)">
+    <rect x="900" y="248" width="180" height="2" fill="url(#sweep)" opacity="0.8">
+      <animate attributeName="x" values="900;-180" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>

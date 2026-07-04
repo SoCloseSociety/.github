@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 56" width="250" height="56" role="img" aria-label="Star our repositories on GitHub">
+  <defs>
+    <linearGradient id="fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="btnClip">
+      <rect x="3" y="3" width="244" height="50" rx="25"/>
+    </clipPath>
+    <path id="star" d="M0,-10 L2.245,-3.09 L9.511,-3.09 L3.633,1.18 L5.878,8.09 L0,3.82 L-5.878,8.09 L-3.633,1.18 L-9.511,-3.09 L-2.245,-3.09 Z"/>
+  </defs>
+
+  <!-- Pulsing halo -->
+  <rect x="3" y="3" width="244" height="50" rx="25" fill="none" stroke="#ec4899" stroke-width="2" opacity="0.45">
+    <animate attributeName="opacity" values="0.45;0.1;0.45" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Button body -->
+  <rect x="3" y="3" width="244" height="50" rx="25" fill="url(#fill)"/>
+  <rect x="3" y="3" width="244" height="50" rx="25" fill="none" stroke="#f9a8d4" stroke-width="1" opacity="0.5"/>
+
+  <!-- Moving sheen -->
+  <g clip-path="url(#btnClip)">
+    <rect x="-90" y="3" width="90" height="50" fill="url(#sheen)" transform="skewX(-15)">
+      <animate attributeName="x" values="-90;280" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Star icon (gentle beat) -->
+  <g transform="translate(42,28)">
+    <use href="#star" fill="#ffffff">
+      <animateTransform attributeName="transform" type="scale" values="1;1.18;1" dur="2.2s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <text x="142" y="34" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="0.3">Star our repos</text>
+</svg>
