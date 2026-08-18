@@ -56,6 +56,7 @@ We create **open-source automation tools** that save hours of manual work -- fro
 - 🕷️ **Web scrapers** — LinkedIn, Google Maps, Instagram, Twitter/X, Doctolib & more (Python + Selenium)
 - 📣 **Social media automation** — bulk DMs, posting, follow-for-follow bots for Instagram, Pinterest, WhatsApp, Telegram
 - 📈 **Trading & crypto intelligence** — market terminals, Solana anti-rug scanners, on-chain whale trackers
+- 🌍 **Live public-safety data** — real-time aggregation of official earthquake, tsunami and disaster feeds
 - 🖥️ **Apps & developer tools** — self-hosted media platforms, macOS utilities, testing & audit suites
 
 ---
@@ -74,6 +75,32 @@ We create **open-source automation tools** that save hours of manual work -- fro
 | 6 | **[LinkedinDataScraper](https://github.com/SoCloseSociety/LinkedinDataScraper)** | Scrape LinkedIn profiles at scale via the Voyager API | [![GitHub stars for LinkedinDataScraper](https://img.shields.io/github/stars/SoCloseSociety/LinkedinDataScraper?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/LinkedinDataScraper) |
 | 7 | **[TradeBobbyTerminal](https://github.com/SoCloseSociety/TradeBobbyTerminal)** | Bloomberg-style market intelligence terminal — 41 panels, zero API costs | [![GitHub stars for TradeBobbyTerminal](https://img.shields.io/github/stars/SoCloseSociety/TradeBobbyTerminal?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal) |
 | 8 | **[TwitterMpBulkSender](https://github.com/SoCloseSociety/TwitterMpBulkSender)** | Automate bulk DMs on X/Twitter with retry logic & rate limiting | [![GitHub stars for TwitterMpBulkSender](https://img.shields.io/github/stars/SoCloseSociety/TwitterMpBulkSender?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TwitterMpBulkSender) |
+
+---
+
+### Featured -- SOSForge <sub><sup>NEW</sup></sub>
+
+<table>
+<tr>
+<td width="100%" align="center">
+
+**[SOSForge](https://github.com/SoCloseSociety/SOSForge)** -- **Real-time earthquake, tsunami & disaster tracker -- 19 official sources in one live feed**
+
+[![GitHub stars for SOSForge](https://img.shields.io/github/stars/SoCloseSociety/SOSForge?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/SOSForge)
+[![Live demo](https://img.shields.io/badge/demo-live-ec4899?style=flat-square&labelColor=0D0D0D)](https://sosforge.185.246.86.143.nip.io)
+[![No API key](https://img.shields.io/badge/API_keys-none_needed-ec4899?style=flat-square&labelColor=0D0D0D)](https://github.com/SoCloseSociety/SOSForge)
+
+🌍 Nineteen official feeds -- EMSC, USGS, NOAA, GDACS, JMA, BMKG, GeoNet, INGV, AFAD, GEOFON, NASA EONET, Meteoalarm, WMO and more -- normalized into **one live stream**, pushed to the browser over websocket with a one-second heartbeat. Includes **Japan's earthquake early warning**, the only feed that fires *while the waves are still travelling*, and draws the **P and S wave fronts** live on the map so you can see where the shaking is arriving right now.
+
+Built on one rule: **the feed must never lie about its own freshness.** Ages come from the server clock, every source exposes its real health, and a partial outage degrades instead of going dark.
+
+**19 sources** · **5 languages** (incl. 🇯🇵 🇮🇩) · **Websocket live feed** · **P/S wave propagation** · **Cross-source dedup** · **172 tests** · **Zero API keys**
+
+**[View the repo →](https://github.com/SoCloseSociety/SOSForge)** · **[⭐ Star it](https://github.com/SoCloseSociety/SOSForge)**
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -221,6 +248,7 @@ Telegram bot that scans any Solana token and returns an instant safety score (0-
 
 | Tool | Description | |
 |------|-------------|---|
+| **[SOSForge](https://github.com/SoCloseSociety/SOSForge)** | 🌍 Real-time earthquake, tsunami & disaster tracker -- 19 official sources, live websocket feed, P/S wave fronts | [![GitHub stars for SOSForge](https://img.shields.io/github/stars/SoCloseSociety/SOSForge?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/SOSForge) |
 | **[neowatch](https://github.com/SoCloseSociety/neowatch)** | 📺 Self-hostable free live-TV, radio & film aggregator -- React PWA, HLS, EPG, TV UX | [![GitHub stars for neowatch](https://img.shields.io/github/stars/SoCloseSociety/neowatch?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/neowatch) |
 | **[macmon](https://github.com/SoCloseSociety/macmon)** | Mac monitor + system cleaner CLI -- 28+ commands, live TUI | [![GitHub stars for macmon](https://img.shields.io/github/stars/SoCloseSociety/macmon?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/macmon) |
 | **[ClickGenerator](https://github.com/SoCloseSociety/ClickGenerator)** | Load testing, synthetic monitoring, SEO & accessibility audits -- Playwright-powered | [![GitHub stars for ClickGenerator](https://img.shields.io/github/stars/SoCloseSociety/ClickGenerator?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/ClickGenerator) |
