@@ -56,7 +56,7 @@ We create **open-source automation tools** that save hours of manual work -- fro
 - 🕷️ **Web scrapers** — LinkedIn, Google Maps, Instagram, Twitter/X, Doctolib & more (Python + Selenium)
 - 📣 **Social media automation** — bulk DMs, posting, follow-for-follow bots for Instagram, Pinterest, WhatsApp, Telegram
 - 📈 **Trading & crypto intelligence** — market terminals, Solana anti-rug scanners, on-chain whale trackers
-- 🌍 **Live public-safety data** — real-time aggregation of official earthquake, tsunami and disaster feeds
+- 🌍 **Live public-safety and climate data** — real-time aggregation of official earthquake, tsunami, disaster and El Nino / ENSO feeds
 - 🖥️ **Apps & developer tools** — self-hosted media platforms, macOS utilities, testing & audit suites
 
 ---
@@ -75,6 +75,34 @@ We create **open-source automation tools** that save hours of manual work -- fro
 | 6 | **[LinkedinDataScraper](https://github.com/SoCloseSociety/LinkedinDataScraper)** | Scrape LinkedIn profiles at scale via the Voyager API | [![GitHub stars for LinkedinDataScraper](https://img.shields.io/github/stars/SoCloseSociety/LinkedinDataScraper?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/LinkedinDataScraper) |
 | 7 | **[TradeBobbyTerminal](https://github.com/SoCloseSociety/TradeBobbyTerminal)** | Bloomberg-style market intelligence terminal — 41 panels, zero API costs | [![GitHub stars for TradeBobbyTerminal](https://img.shields.io/github/stars/SoCloseSociety/TradeBobbyTerminal?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal) |
 | 8 | **[TwitterMpBulkSender](https://github.com/SoCloseSociety/TwitterMpBulkSender)** | Automate bulk DMs on X/Twitter with retry logic & rate limiting | [![GitHub stars for TwitterMpBulkSender](https://img.shields.io/github/stars/SoCloseSociety/TwitterMpBulkSender?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TwitterMpBulkSender) |
+
+---
+
+### Featured -- El Nino Watch <sub><sup>NEW</sup></sub>
+
+<table>
+<tr>
+<td width="100%" align="center">
+
+**[elnino-watch](https://github.com/SoCloseSociety/elnino-watch)** -- **Live El Nino (ENSO) tracker with an explainable risk watch for Koh Samui -- 85 free public sources**
+
+[![GitHub stars for elnino-watch](https://img.shields.io/github/stars/SoCloseSociety/elnino-watch?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/elnino-watch)
+[![Live site](https://img.shields.io/badge/live-elnino.soclose.co-ec4899?style=flat-square&labelColor=0D0D0D)](https://elnino.soclose.co)
+[![No API key](https://img.shields.io/badge/API_keys-none_needed-ec4899?style=flat-square&labelColor=0D0D0D)](https://github.com/SoCloseSociety/elnino-watch)
+
+<a href="https://elnino.soclose.co"><img src="https://raw.githubusercontent.com/SoCloseSociety/elnino-watch/main/docs/screenshots/overview.png" alt="El Nino Watch overview: live briefing, official NOAA CPC status, ONI and weekly Nino 3.4 with dates and sources" width="720"></a>
+
+🌊 A strong El Nino is under way. This tracker follows it live from **NOAA, NASA, BoM, JMA, IRI, WMO, Copernicus, Open-Meteo, GDACS and the Thai agencies**, draws 22 satellite layers and 1,800+ hazard events on a MapLibre map, and turns the local signals into a **five-level risk watch for Koh Samui** (normal, vigilance, prepare, act, leave) where every factor shows its value, threshold, source and explanation. Replays the seven strong El Ninos since 1982 for the island, ships a sourced preparedness checklist, and explains everything in a 240-topic Learn section.
+
+Built on one rule: **never fabricate data.** Every number carries its date and a link to the file it came from; a stale or missing source is shown as such, and the level becomes "unknown", never "safe".
+
+**85 sources** · **214 series** · **22 satellite layers** · **5-level explainable risk engine** · **240 help topics** · **470+ offline tests** · **Zero API keys** · **FastAPI + React + MapLibre**
+
+**[View the repo →](https://github.com/SoCloseSociety/elnino-watch)** · **[Open the live site →](https://elnino.soclose.co)** · **[⭐ Star it](https://github.com/SoCloseSociety/elnino-watch)**
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -248,6 +276,7 @@ Telegram bot that scans any Solana token and returns an instant safety score (0-
 
 | Tool | Description | |
 |------|-------------|---|
+| **[elnino-watch](https://github.com/SoCloseSociety/elnino-watch)** | 🌊 Live El Nino / ENSO tracker with an explainable risk watch for Koh Samui -- 85 free sources, 22 satellite layers, [live site](https://elnino.soclose.co) | [![GitHub stars for elnino-watch](https://img.shields.io/github/stars/SoCloseSociety/elnino-watch?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/elnino-watch) |
 | **[SOSForge](https://github.com/SoCloseSociety/SOSForge)** | 🌍 Real-time earthquake, tsunami & disaster tracker -- 19 official sources, live websocket feed, P/S wave fronts | [![GitHub stars for SOSForge](https://img.shields.io/github/stars/SoCloseSociety/SOSForge?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/SOSForge) |
 | **[neowatch](https://github.com/SoCloseSociety/neowatch)** | 📺 Self-hostable free live-TV, radio & film aggregator -- React PWA, HLS, EPG, TV UX | [![GitHub stars for neowatch](https://img.shields.io/github/stars/SoCloseSociety/neowatch?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/neowatch) |
 | **[macmon](https://github.com/SoCloseSociety/macmon)** | Mac monitor + system cleaner CLI -- 28+ commands, live TUI | [![GitHub stars for macmon](https://img.shields.io/github/stars/SoCloseSociety/macmon?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/macmon) |
@@ -288,6 +317,7 @@ Telegram bot that scans any Solana token and returns an instant safety score (0-
   <img src="https://img.shields.io/badge/Rich_CLI-ec4899?style=flat-square&labelColor=0D0D0D" alt="Rich CLI">
   <img src="https://img.shields.io/badge/Telegram_Bot-ec4899?style=flat-square&logo=telegram&logoColor=white&labelColor=0D0D0D" alt="Telegram Bot">
   <img src="https://img.shields.io/badge/Docker-ec4899?style=flat-square&logo=docker&logoColor=white&labelColor=0D0D0D" alt="Docker">
+  <img src="https://img.shields.io/badge/MapLibre-ec4899?style=flat-square&logo=maplibre&logoColor=white&labelColor=0D0D0D" alt="MapLibre GL">
   <img src="https://img.shields.io/badge/Solana-ec4899?style=flat-square&logo=solana&logoColor=white&labelColor=0D0D0D" alt="Solana">
 </p>
 
