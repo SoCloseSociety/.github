@@ -146,6 +146,28 @@ Follows the 2026-27 El Nino live from **NOAA, NASA, BoM, JMA, IRI, WMO, Copernic
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="100%" align="center">
+
+**[TradeBobbyTerminal](https://github.com/SoCloseSociety/TradeBobbyTerminal)** -- **Self-hosted Bloomberg-style trading terminal with live crypto order flow -- on your laptop** &nbsp; ✅
+
+[![GitHub stars for TradeBobbyTerminal](https://img.shields.io/github/stars/SoCloseSociety/TradeBobbyTerminal?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal)
+[![Tests](https://img.shields.io/badge/tests-9%2F9_on_live_market_data-ec4899?style=flat-square&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal)
+[![No account](https://img.shields.io/badge/accounts-none_needed-ec4899?style=flat-square&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal)
+
+<a href="https://github.com/SoCloseSociety/TradeBobbyTerminal"><img src="https://raw.githubusercontent.com/SoCloseSociety/TradeBobbyTerminal/main/docs/screenshots/orderflow-live.png" alt="TradeBobby live order flow: BTC candles, cumulative volume delta, order-book pressure, trades tape and liquidity heatmap" width="720"></a>
+
+A research desk in a box for ICT/SMC macro traders. Pulls **15+ free public data sources** (Yahoo, CFTC COT, CoinGecko, Binance order flow, on-chain BTC, news, earnings, Reddit) into a **41-panel dashboard**, with live crypto order flow -- candles, CVD, order book, trades tape, real-time stream -- regime briefs, a composite risk index and scored trade ideas.
+
+**41 panels** · **Live order flow** · **15+ free sources, no auth** · **1,900-line Pine V6 indicator** · **⌘K palette** · **Alerts: macOS / Discord / Telegram**
+
+**[View the repo →](https://github.com/SoCloseSociety/TradeBobbyTerminal)** · **[⭐ Star it](https://github.com/SoCloseSociety/TradeBobbyTerminal)**
+
+</td>
+</tr>
+</table>
+
 | Tool | What it does | Status | |
 |------|--------------|:---:|---|
 | **[camforge](https://github.com/SoCloseSociety/camforge)** | Self-hosted world map of 7,000+ public traffic, weather and webcam feeds, relayed through your own media server, with a local AI vision relay (Ollama) | ✅ | [![GitHub stars for camforge](https://img.shields.io/github/stars/SoCloseSociety/camforge?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/camforge) |
@@ -164,7 +186,7 @@ Follows the 2026-27 El Nino live from **NOAA, NASA, BoM, JMA, IRI, WMO, Copernic
 |---|---------|-------------------|:---:|---|
 | 🥇 | **[MiloAgent](https://github.com/SoCloseSociety/MiloAgent)** | Self-learning AI growth agent for Reddit, X & Telegram -- needs your own Reddit API app | 🔌 | [![GitHub stars for MiloAgent](https://img.shields.io/github/stars/SoCloseSociety/MiloAgent?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/MiloAgent) |
 | 🥈 | **[PinterestBulkPostBot](https://github.com/SoCloseSociety/PinterestBulkPostBot)** | Bulk-post to Pinterest: schedule pins, manage boards, CSV import | 🔌 | [![GitHub stars for PinterestBulkPostBot](https://img.shields.io/github/stars/SoCloseSociety/PinterestBulkPostBot?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/PinterestBulkPostBot) |
-| 🥉 | **[TradeBobbyTerminal](https://github.com/SoCloseSociety/TradeBobbyTerminal)** | Self-hosted Bloomberg-style ICT/SMC trading terminal -- 41 panels on free market data | 🔌 | [![GitHub stars for TradeBobbyTerminal](https://img.shields.io/github/stars/SoCloseSociety/TradeBobbyTerminal?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal) |
+| 🥉 | **[TradeBobbyTerminal](https://github.com/SoCloseSociety/TradeBobbyTerminal)** | Self-hosted Bloomberg-style ICT/SMC trading terminal -- 41 panels, live crypto order flow, free market data | ✅ | [![GitHub stars for TradeBobbyTerminal](https://img.shields.io/github/stars/SoCloseSociety/TradeBobbyTerminal?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal) |
 | 4 | **[GoogleMapScraper](https://github.com/SoCloseSociety/GoogleMapScraper)** | Business leads from Google Maps -- names, phones, websites, hours | 🔌 | [![GitHub stars for GoogleMapScraper](https://img.shields.io/github/stars/SoCloseSociety/GoogleMapScraper?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/GoogleMapScraper) |
 | 5 | **[InstagramMpBulkSender](https://github.com/SoCloseSociety/InstagramMpBulkSender)** | Bulk Instagram DMs with progress tracking and human-like delays | 🔌 | [![GitHub stars for InstagramMpBulkSender](https://img.shields.io/github/stars/SoCloseSociety/InstagramMpBulkSender?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/InstagramMpBulkSender) |
 | 6 | **[camforge](https://github.com/SoCloseSociety/camforge)** | Live world map of public cameras with a local AI vision relay | ✅ | [![GitHub stars for camforge](https://img.shields.io/github/stars/SoCloseSociety/camforge?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/camforge) |
@@ -202,7 +224,7 @@ Follows the 2026-27 El Nino live from **NOAA, NASA, BoM, JMA, IRI, WMO, Copernic
 
 | Tool | Description | Status | |
 |------|-------------|:---:|---|
-| **[TradeBobbyTerminal](https://github.com/SoCloseSociety/TradeBobbyTerminal)** | Bloomberg-style ICT/SMC trading terminal -- 41 panels, 15+ free data sources, Pine V6 indicator | 🔌 | [![GitHub stars for TradeBobbyTerminal](https://img.shields.io/github/stars/SoCloseSociety/TradeBobbyTerminal?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal) |
+| **[TradeBobbyTerminal](https://github.com/SoCloseSociety/TradeBobbyTerminal)** | Bloomberg-style ICT/SMC trading terminal -- 41 panels, live crypto order flow, 15+ free data sources, Pine V6 indicator | ✅ | [![GitHub stars for TradeBobbyTerminal](https://img.shields.io/github/stars/SoCloseSociety/TradeBobbyTerminal?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/TradeBobbyTerminal) |
 | **[RugscoreBotTG](https://github.com/SoCloseSociety/RugscoreBotTG)** | Solana anti-rug scanner -- 8-criteria scoring, Telegram bot, real-time on-chain data | 🔌 | [![GitHub stars for RugscoreBotTG](https://img.shields.io/github/stars/SoCloseSociety/RugscoreBotTG?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/RugscoreBotTG) |
 | **[WhalegodTG](https://github.com/SoCloseSociety/WhalegodTG)** | On-chain whale tracker for Solana & Ethereum -- 14 categories, labeled wallets, Telegram alerts | 🔌 | [![GitHub stars for WhalegodTG](https://img.shields.io/github/stars/SoCloseSociety/WhalegodTG?style=flat-square&color=ec4899&labelColor=0D0D0D)](https://github.com/SoCloseSociety/WhalegodTG) |
 
